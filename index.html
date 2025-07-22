@@ -7,20 +7,21 @@
   <meta name="author" content="Taís Michely">
   <meta name="keywordds" content="HTML, CSS, Javascript">
   <link rel="icon" type="image/svg" href="./assets/img/favicon.svg">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Meu perfil</title>
 </head>
 <body>
 
   <header>
-    <div class="header-content">
+    <div id="header-content" class="flex">
       <div class="titulo">
-        <h1>Generation Brasil</h1>
+        <h1>T</h1>
       </div>
       <div class="menu">
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="contato.html">Contato</a></li>
+            <li><a href="contato.html">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -28,47 +29,47 @@
   </header>
 
   <main>
-    <section id="about">
-      <h2>Sobre a Generation Brasil</h2>
-      <div class="conteudo">
-        <img src="./assets/img/user_01.svg" alt="Foto do criador desse conteudo">
+    <section id="about" class="flex-start">
+      <span>Olá, meu nome é</span>
+      <span class="text">Taís Michely</span>
+      <div id="conteudo" class="flex">
+        <img src="./assets/img/taisperfil.jpg" alt="Foto do criador desse conteudo" class="profile">
         <article class="sobre-texto">
           <p>
-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </article>
       </div>
     </section>
-    <section id="video">
+    <section id="video" class="flex-start">
       <h2>Meu vídeo favorito</h2>
-      <div id="youtube">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/GC_Szxdqh2Y?si=QO65Q8R1g0gOLlbb"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        >
+      <div id="youtube" class="flex">
 
-        </iframe>
+        <iframe width="681" height="383" src="https://www.youtube.com/embed/soN1VitKOrE" title="Princípios do Sombreamento-Como sombrear seus desenhos (Fácil)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer class="flex">
     <section class="redes-sociais">
       <a href="">
-        <img src="assets/img/linkedin.svg" alt="linkedIn">
+        <img src="assets/img/linkedin.svg" alt="linkedIn" class="social-icon">
       </a>
       <a href="">
-        <img src="assets/img/github.svg" alt="Github">
+        <img src="assets/img/github.svg" alt="Github" class="social-icon">
       </a>
       <a href="">
-        <img src="assets/img/instagram.svg" alt="Instagram">
+        <img src="assets/img/instagram.svg" alt="Instagram" class="social-icon">
       </a>
     </section>
-    <h3>Feito com ❤️ por Generation Brasil - 2025</h3>
+    <h3>Feito com por Generation Brasil - 2025</h3>
   </footer>
   
 </body>

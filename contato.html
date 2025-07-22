@@ -6,19 +6,20 @@
 		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="Generation Brasil">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="./assets/css/style.css">
 		<title>Meu Perfil</title>
 	</head>
 	<body>
 		<header>
-			<div id="header_content">
+			<div id="header-content" class="flex">
 
-				<div id="titulo">
-					<h1>Taís Michely</h1>
+				<div class="titulo">
+					<h1>T</h1>
 				</div>
 
-				<div id="menu">
+				<div class="menu">
 					<nav>
-						<ul id="menu">
+						<ul class="menu">
 							<li>
 								<a href="index.html"> Home </a>
 							</li>
@@ -34,7 +35,7 @@
 		<main>
 
 			 <!-- Seção Formulário de Contato e Redes Sociais -->
-             <section id="contact">
+             <section id="contact" class="flex">
 
                 <!-- Seção do Formulário -->
                 <form action="#" method="submit" id="formulario">
@@ -57,9 +58,11 @@
                     
                 </form>
                 <!-- Seção do Google Maps -->
-                <article id="mapa">
-                  <p>Av. Pedro Álvares Cabral - Vila Mariana</p>
-                    <p>São Paulo - SP</p>
+                <section id="mapa" class="flex-start">
+                    <div class="endereco">
+                      <p>Av. Pedro Álvares Cabral - Vila Mariana</p>
+                      <p>São Paulo - SP</p>
+                    </div>
                     <iframe 
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5122622399053!2d-46.66100952578639!3d-23.585954562493974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f1069d11d1%3A0xcb936109af9ce541!2sParque%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1752887850980!5m2!1spt-BR!2sbr"
                       width="400"
@@ -72,26 +75,24 @@
                       id="mapa"
                     >
                     </iframe>
-                </article>
+                  </section>
                
             </section>
 		</main>
 
-		<footer>
-
-            <section id="redes_sociais">
-                    <a href="">
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/github.svg" alt="Github" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/instagram.svg" alt="Instagram" />
-                    </a>
-            </section>
-
-			<h3>Feito com 🧡 por Generation Brasil - 2025</h3>
+		<footer class="flex">
+      <section class="redes-sociais">
+        <a href="">
+            <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social-icon"/>
+        </a>
+        <a href="">
+          <img src="assets/img/github.svg" alt="Github" class="social-icon"/>
+        </a>
+        <a href="">
+          <img src="assets/img/instagram.svg" alt="Instagram" class="social-icon"/>
+        </a>
+      </section>
+			<h3>Feito com por Generation Brasil - 2025</h3>
 		</footer>
 	</body>
 </html>

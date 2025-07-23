@@ -43,7 +43,7 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://taismichely.github.io/gb-portfolio/contato.html)
+- [Portfólio Pessoal](https://taismichely.github.io/gb-portfolio/index.html)
 
 ## Contribuindo
 
